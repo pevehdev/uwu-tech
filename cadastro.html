@@ -1,20 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="index.html">home</a>
-            <a href="sobre.html">sobre</a>
-            <a href="produto.html">Produtos</a>
-            <a href="cadastro.html">Crie sua conta</a>
-        </nav>
-    </header>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilo.css">
+        <title>UwU tech</title>
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">home</a>
+                <a href="sobre.html">sobre</a>
+                <a href="produto.html">Produtos</a>
+                <a href="cadastro.html">Crie sua conta</a>
+            </nav>
+        </header>
+        <section class="conteudo">
+            <form id="formulario" autocomplete="off">
+
+                <div class="field-container-login">
+                    <h1>JÁ SOU CADASTRADO
+                    </h1>
+                    <div class="campo">
+                        <input type="email" placeholder="Seu email" name="email" id="email" required>
+                    </div>
+
+                    <div class="campo">
+                        <input type="password" placeholder="Digite a senha" name="senha" id="senha" required>
+                    </div>
+                    <button class="botao" type="submit">Entrar</button>
+
+                </div>
+
+                <div class="field-container-cadastro">
+                    <h1>QUERO ME CADASTRAR
+                    </h1>
+                    <div class="campo">
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="campo">
+
+                        <input type="email" name="email" id="email" placeholder="Seu email" required>
+                    </div>
+
+                    <div class="campo">
+
+                        <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="campo">
+                        <input type="password" name="password" id="password" placeholder="Confirme sua senha" required>
+                    </div>
+
+
+                    <button class="botao" type="submit">Cadastrar</button>
+
+                </div>
+
+
+            </form>
+
+        </section>
+
+
+
 </html>
