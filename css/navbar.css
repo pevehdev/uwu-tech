@@ -5,6 +5,7 @@
   /* margin 0, definição que toda margem terminaram com 0*/
   box-sizing: border-box;
   font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
 }
 
 .principal {
@@ -47,5 +48,20 @@
   border: 0;
   border-bottom: 1px solid rgba(175, 172, 172, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-
 }
+ .navbar a {
+      text-decoration: none;
+      border: none;
+      background: #ea1538;
+      padding: 12px 30px;
+      border-radius: 30px;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      transition: .4s;
+ }
+  .navbar a:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  
+  }
