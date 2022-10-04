@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  /*padding 0, definição de todos os elementos irão começar com este valor*/
+  margin: 0;
+  /* margin 0, definição que toda margem terminaram com 0*/
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.principal {
+  background: #f3f5f9;
+  height: 100vh;
+  /* altura da pagina em relação elemento pai */
+  width: 100%;
+  /* Largura da pagina ocupando ela toda*/
+  background-size: cover;
+  /*preenchimento do background de acordo com o bloco pai*/
+  background-position: center;
+  /*centralizar posição do background*/
+}
+
+.logo {
+
+  padding-top: 10px;
+  /*padding para dar espaço dentro da div*/
+  padding-left: 2%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+}
+
+.logo img {
+
+  width: 300px;
+  height: auto;
+  /* altura em relação elemento pai */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+
+  /*Separar os elementos com um espaço entre eles*/
+  align-items: center;
+  /*Alinhar todos os elementos dentro do bloco no centro*/
+  border: 0;
+  border-bottom: 1px solid rgba(175, 172, 172, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
