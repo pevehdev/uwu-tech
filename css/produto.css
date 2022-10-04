@@ -1,0 +1,27 @@
+.product1{ /*Os product1 são todos referentes as imagens no menu de produtos*/
+    border-radius: 30px; /*Arredondamento de borda definido para melhor */
+     margin-left: 5px;/*Espaço entre os arquivos*/
+    margin-right: 5px;/*Espaço entre os arquivos*/
+    width: 300px;/*Tamanho delimitado de comprimento*/
+    height:300px;/*Tamanho delimitado de altura*/
+    display: block; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Title{/*Refere-se as divisões*/
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: gray;
+}
+.navigation{
+       display: flex;
+       margin-left: 120px;
+       margin-right: 120px;
+    flex-wrap: wrap;
+    background-size: contain;
+}
+.product{
+    font-size: larger;
+}
