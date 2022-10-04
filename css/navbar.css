@@ -9,7 +9,8 @@
 
 .principal {
   background: #f3f5f9;
-  height: 100vh;
+  height: 22vh;
+  
   /* altura da pagina em relação elemento pai */
   width: 100%;
   /* Largura da pagina ocupando ela toda*/
