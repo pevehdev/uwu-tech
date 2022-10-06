@@ -1,20 +1,21 @@
 * {
-    padding: 0;   /*padding 0, definição de todos os elementos irão começar com este valor*/
-    margin: 0;    /* margin 0, definição que toda margem terminaram com 0*/
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-  } 
-   
+  padding: 0;
+  /*padding 0, definição de todos os elementos irão começar com este valor*/
+  margin: 0;
+  /* margin 0, definição que toda margem terminaram com 0*/
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
 
- /* estilização do rodapé/ border 0 para deixar no final da pag  */
+}
+
+
+/* estilização do rodapé/ border 0 para deixar no final da pag  */
 .rodape {
-    display: flex;
-    padding: 3vh;
-    bottom: 0;
-    border: 0;
-    border-top: 1px solid rgba(175, 172, 172, 0.2);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
 
-
-
+  display: flex;
+  padding: 3vh;
+  bottom: 0;
+  border: 0;
+  border-top: 1px solid rgba(175, 172, 172, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

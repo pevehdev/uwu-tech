@@ -10,8 +10,8 @@
 
 .principal {
   background: #f3f5f9;
-  height: 22vh;
-  
+  height: auto;
+
   /* altura da pagina em relação elemento pai */
   width: 100%;
   /* Largura da pagina ocupando ela toda*/
@@ -49,19 +49,21 @@
   border-bottom: 1px solid rgba(175, 172, 172, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
- .navbar a {
-      text-decoration: none;
-      border: none;
-      background: #ea1538;
-      padding: 12px 30px;
-      border-radius: 30px;
-      color: white;
-      font-weight: bold;
-      font-size: 15px;
-      transition: .4s;
- }
-  .navbar a:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-  
-  }
+
+.navbar a {
+  text-decoration: none;
+  border: none;
+  background: #ea1538;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .4s;
+}
+
+.navbar a:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+
+}
