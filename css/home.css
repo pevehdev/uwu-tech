@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    /*padding 0, definição de todos os elementos irão começar com este valor*/
+    margin: 0;
+    /* margin 0, definição que toda margem terminaram com 0*/
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+  
+  }
+
+  .sobre-empresa{
+
+    width: 1200px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
