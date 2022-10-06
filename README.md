@@ -18,3 +18,4 @@ separadas para os arquivos de CSS, JS e as
 imagens (os arquivos HTML podem ficar na raiz
 do projeto).
 
+Todos os direitos reservados
