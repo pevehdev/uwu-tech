@@ -1,4 +1,6 @@
-
+body{
+  background-color: blueviolet;
+}
 
 .card-zone {
   width: 1200px;
@@ -7,7 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  
 }
 
 #fundadores {
@@ -17,6 +19,9 @@
 
 
   text-align: center;
+}
+h1{
+  color: white;
 }
 
 h3 {
@@ -64,4 +69,7 @@ a {
 
 
 
+}
+h5{
+  color: white;
 }
