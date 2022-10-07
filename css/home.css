@@ -30,15 +30,16 @@
   .imagem img{
     display: block;
     margin: auto;
-    padding-top: 50px;
+    margin-top: 50px;
     background-color: blueviolet;
-    
+    border-radius: 50%;
   }
   .texto{
     text-align: center;
-    
+    font-size: 30px;
     width: 400px;
     margin: auto;
     margin-top: 30px;
-    border: 1px solid red   ;
+    padding-bottom: 60px;
+
   }
