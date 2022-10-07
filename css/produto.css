@@ -21,9 +21,14 @@
     justify-content: center;
     margin: 20px;
 }
-
+.c1{
+    color: white;
+    max-width: 300px;
+    margin: 20px;
+    text-decoration: none;
+}
 body {
-    background-color: gray;
+    background-color: blueviolet;
 }
 
 .navigation {
@@ -32,8 +37,4 @@ body {
     margin-right: 120px;
     flex-wrap: wrap;
     background-size: contain;
-}
-
-.product {
-    font-size: larger;
 }
