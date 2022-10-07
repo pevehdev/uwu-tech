@@ -13,9 +13,23 @@
 .rodape {
 
   display: flex;
+  justify-content: space-between;
   padding: 3vh;
   bottom: 0;
   border: 1px solid red;
   border-top: 1px solid rgba(175, 172, 172, 0.2);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color:rgb(241, 45, 81)
+  
+}
+.rodape-texto{
+  text-align: center;
+  border: 1px solid red;
+}
+.localizacao{
+  
+  border: 1px solid red;
+}
+.rodape-texto p{ 
+  color:aliceblue ;
 }
