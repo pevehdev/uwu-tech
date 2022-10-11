@@ -2,10 +2,10 @@
 Projeto realizado curso de programação do senac
 
 Grupo:
-Andrielle Ramos
-David Coelho
-Maicon Nascimento
-Paulo Victor Rodrigues
+Andrielle Ramos**
+David Coelho**
+Maicon Nascimento**
+Paulo Victor Rodrigues**
 
 Requisitos
 
